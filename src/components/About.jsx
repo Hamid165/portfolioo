@@ -19,7 +19,7 @@ export default function About() {
           <span className="section-eyebrow">Get to know me</span>
           <h2 className="section-title">About Me</h2>
           <p className="section-subtitle">
-            Pengembang yang bersemangat dalam menciptakan pengalaman digital yang elegan
+            Bersemangat dalam mempelajari hal baru dan menciptakan solusi teknologi yang bermanfaat.
           </p>
         </ScrollReveal>
 
@@ -28,7 +28,7 @@ export default function About() {
             <div className="about__bio">
               <p>{personalInfo.bio}</p>
               <p className="about__bio-extra">
-                Saya percaya bahwa teknologi yang baik bukan hanya soal kode yang berjalan dengan benar, tetapi juga tentang pengalaman yang menyenangkan bagi pengguna. Setiap project adalah kesempatan untuk belajar hal baru dan menciptakan sesuatu yang bermakna.
+                Bagi saya, teknologi bukan sekadar menulis baris kode yang berfungsi, melainkan bagaimana menciptakan pengalaman digital yang intuitif dan bermakna. Saya selalu antusias menjadikan setiap proyek sebagai ruang untuk belajar, berinovasi, dan memberikan dampak positif.
               </p>
             </div>
 
