@@ -18,9 +18,6 @@ export default function About() {
         <ScrollReveal className="about__header">
           <span className="section-eyebrow">Get to know me</span>
           <h2 className="section-title">About Me</h2>
-          <p className="section-subtitle">
-            Bersemangat dalam mempelajari hal baru dan menciptakan solusi teknologi yang bermanfaat.
-          </p>
         </ScrollReveal>
 
           {/* Text content */}
