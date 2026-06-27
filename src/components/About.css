@@ -1,0 +1,220 @@
+.about {
+  position: relative;
+  z-index: 1;
+}
+
+.about__bg-accent {
+  display: none; /* 3D background handles all ambient visuals */
+}
+
+.about__header {
+  margin-bottom: 4rem;
+}
+
+.section-eyebrow {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #6c63ff;
+  margin-bottom: 0.75rem;
+  padding: 0.3rem 1rem;
+  background: rgba(108, 99, 255, 0.1);
+  border-radius: 9999px;
+  border: 1px solid rgba(108, 99, 255, 0.2);
+}
+
+/* Main grid */
+.about__grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 5rem;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+/* Text column */
+.about__text-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about__bio {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about__bio p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: rgba(228, 228, 231, 0.75);
+}
+
+.about__bio-extra {
+  color: rgba(228, 228, 231, 0.55) !important;
+  font-size: 0.95rem !important;
+}
+
+/* Info list */
+.about__info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about__info-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 0.75rem;
+  transition: all 0.2s ease;
+}
+
+.about__info-item:hover {
+  background: rgba(108, 99, 255, 0.06);
+  border-color: rgba(108, 99, 255, 0.15);
+}
+
+.about__info-icon {
+  font-size: 1.1rem;
+  color: #6c63ff;
+  flex-shrink: 0;
+}
+
+.about__info-item div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.about__info-label {
+  font-size: 0.75rem;
+  color: rgba(228, 228, 231, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.about__info-value {
+  font-size: 0.95rem;
+  color: rgba(228, 228, 231, 0.85);
+  font-weight: 500;
+}
+
+.about__cta {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  background: linear-gradient(135deg, #6c63ff, #00d4ff);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 0.625rem;
+  text-decoration: none;
+  width: fit-content;
+  box-shadow: 0 4px 20px rgba(108, 99, 255, 0.3);
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+/* Right column — 3D */
+.about__right-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__3d-container {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.about__3d-glow {
+  position: absolute;
+  inset: -20px;
+  background: radial-gradient(ellipse at center, rgba(108, 99, 255, 0.25) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.about__iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 1.5rem;
+  position: relative;
+  z-index: 1;
+  background: transparent;
+}
+
+/* Stats */
+.about__stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.about__stat-card {
+  padding: 1.75rem 1.25rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  cursor: default;
+  transition: all 0.3s ease;
+}
+
+.about__stat-number {
+  font-size: 2.25rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #6c63ff, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+}
+
+.about__stat-label {
+  font-size: 0.85rem;
+  color: rgba(228, 228, 231, 0.5);
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about__right-col {
+    order: -1;
+  }
+
+  .about__3d-container {
+    max-width: 280px;
+    height: 280px;
+  }
+
+  .about__stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .about__stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
