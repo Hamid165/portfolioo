@@ -78,19 +78,7 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* CTA Button */}
-        <motion.a
-          href="#contact"
-          className="navbar__cta"
-          onClick={(e) => { e.preventDefault(); handleNavClick('#contact'); }}
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.8 }}
-          whileHover={{ scale: 1.05, boxShadow: '0 0 20px rgba(108,99,255,0.4)' }}
-          whileTap={{ scale: 0.95 }}
-        >
-          Hire Me
-        </motion.a>
+
 
         {/* Mobile Toggle */}
         <button
