@@ -72,7 +72,7 @@ export default function Skills() {
 
         {/* Tech badges row */}
         <div className="skills__tech-badges">
-          {['HTML', 'CSS', 'JavaScript', 'PHP', 'Laravel', 'MySQL', 'Figma', 'Flutter', 'Firebase'].map((tech, i) => (
+          {['HTML', 'CSS', 'JavaScript', 'PHP', 'Laravel', 'MySQL', 'Figma', 'Flutter', 'Firebase', 'GitHub', 'Bootstrap', 'Tailwind CSS'].map((tech, i) => (
             <motion.span
               key={tech}
               className="skills__tech-badge"

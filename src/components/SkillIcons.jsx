@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import ScrollReveal from './ScrollReveal';
-import { SiHtml5, SiCss, SiJavascript, SiPhp, SiLaravel, SiMysql, SiFlutter, SiFirebase } from 'react-icons/si';
+import { SiHtml5, SiCss, SiJavascript, SiPhp, SiLaravel, SiMysql, SiFlutter, SiFirebase, SiFigma, SiGithub, SiBootstrap, SiTailwindcss } from 'react-icons/si';
 import './SkillIcons.css';
 
 export default function SkillIcons() {
@@ -12,7 +12,11 @@ export default function SkillIcons() {
     { name: 'Laravel', icon: <SiLaravel /> },
     { name: 'MySQL', icon: <SiMysql /> },
     { name: 'Flutter', icon: <SiFlutter /> },
-    { name: 'Firebase', icon: <SiFirebase /> }
+    { name: 'Firebase', icon: <SiFirebase /> },
+    { name: 'Figma', icon: <SiFigma /> },
+    { name: 'GitHub', icon: <SiGithub /> },
+    { name: 'Bootstrap', icon: <SiBootstrap /> },
+    { name: 'Tailwind CSS', icon: <SiTailwindcss /> }
   ];
 
   return (

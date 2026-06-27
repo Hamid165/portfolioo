@@ -46,9 +46,7 @@ export default function Contact() {
         <ScrollReveal className="contact__header">
           <span className="section-eyebrow">Get In Touch</span>
           <h2 className="section-title">Contact Me</h2>
-          <p className="section-subtitle">
-            Punya ide project keren? Mari kita diskusikan dan wujudkan bersama!
-          </p>
+
         </ScrollReveal>
 
         <div className="contact__grid">

@@ -113,6 +113,9 @@ export const skills = [
       { name: "Flutter", level: 75 },
       { name: "Firebase", level: 75 },
       { name: "Figma", level: 70 },
+      { name: "GitHub", level: 80 },
+      { name: "Bootstrap", level: 85 },
+      { name: "Tailwind CSS", level: 85 },
     ],
   },
   {
