@@ -7,7 +7,7 @@ export const personalInfo = {
   title: "Full-Stack Developer",
   subtitle: "Mobile & Web Developer",
   tagline: "Crafting digital experiences with passion and precision",
-  bio: `Saya adalah seorang mahasiswa jurusan Teknik Informatika di Telkom University Purwokerto, dengan bekal latar belakang pendidikan dari SMK Telkom Purwokerto. Perjalanan saya di dunia teknologi berawal dari ketertarikan mendalam pada rekayasa perangkat lunak, yang kini terus saya kembangkan melalui eksplorasi di bidang pemrograman web dan mobile.`,
+  bio: `Saya merupakan mahasiswa jurusan Teknik Informatika di Telkom University Purwokerto yang memiliki ketertarikan besar pada bidang teknologi dan pengembangan perangkat lunak. Selama menjalani perkuliahan, saya terus mengembangkan kemampuan melalui eksplorasi di bidang pemrograman web dan mobile serta berbagai pengalaman yang mendukung penguasaan keterampilan teknis.`,
   email: "hamidskj123@gmail.com",
   phone: "+62 812-xxxx-xxxx",
   location: "Indonesia",

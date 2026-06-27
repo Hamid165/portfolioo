@@ -28,7 +28,7 @@ export default function About() {
             <div className="about__bio">
               <p>{personalInfo.bio}</p>
               <p className="about__bio-extra">
-                Bagi saya, teknologi bukan sekadar menulis baris kode yang berfungsi, melainkan bagaimana menciptakan pengalaman digital yang intuitif dan bermakna. Saya selalu antusias menjadikan setiap proyek sebagai ruang untuk belajar, berinovasi, dan memberikan dampak positif.
+                Bagi saya, teknologi bukan sekadar menulis baris kode yang berfungsi, tetapi juga tentang bagaimana menciptakan pengalaman digital yang intuitif dan bermakna. Saya selalu antusias menjadikan setiap proyek sebagai kesempatan untuk belajar, berinovasi, dan memberikan dampak positif melalui solusi yang dikembangkan.
               </p>
             </div>
 
